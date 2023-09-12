@@ -1,0 +1,58 @@
+.container{
+    
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+background-color: rgb(49, 53, 82);
+border-radius: 5px;
+}
+
+.card{
+    width: 300px;
+    height: 50%;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    margin:40px 20px;
+    background-color: aliceblue;
+}
+
+.card-img{
+    width: 250px;
+    height: 250px;
+   
+}
+
+#name{
+    font-weight: bolder;
+    margin-top: 10px;
+}
+#prdName{
+    font-weight:40;
+    font-size: 12px;
+}
+#price{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.add-btn{
+margin-top: 15px;
+background-color: rgb(1, 1, 16);
+color: white;
+padding: 7px 7px;
+border: none;
+border-radius: 5px;
+font-weight: bold;
+}
+
+.add-btn:hover{
+    padding: 8px 8px;
+    color:  white;
+    background-color:rgb(56, 56, 174);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
